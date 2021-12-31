@@ -1,3 +1,6 @@
+# Ignore package-lock.json since it is being installed as library/dependency
+package-lock.json
+
 # Logs
 logs
 *.log

@@ -1,0 +1,50 @@
+{
+    "name": "@webextensions/revisit",
+    "version": "0.0.0",
+    "description": "Tasks to revisit from time to time / Simple reminders for recurring tasks",
+    "main": "index.js",
+    "bin": {
+        "revisit": "./index.js"
+    },
+    "scripts": {
+        "lint": "./node_modules/.bin/eslint .",
+        "test": "npm run lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/webextensions/revisit.git"
+    },
+    "keywords": [
+        "commit",
+        "git",
+        "hook",
+        "hooks",
+        "post",
+        "pre",
+        "push",
+        "recur",
+        "recurring",
+        "remind",
+        "reminder",
+        "reoccur",
+        "revisit",
+        "simple",
+        "snooze",
+        "task",
+        "tasks",
+        "time"
+    ],
+    "author": "Priyank Parashar",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/webextensions/revisit/issues"
+    },
+    "homepage": "https://github.com/webextensions/revisit#readme",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "find-up": "^5.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.5.0"
+    }
+}
