@@ -1,6 +1,6 @@
 {
     "name": "@webextensions/revisit",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Tasks to revisit from time to time / Simple reminders for recurring tasks",
     "publishConfig": {
         "access": "public"
