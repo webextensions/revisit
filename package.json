@@ -2,6 +2,9 @@
     "name": "@webextensions/revisit",
     "version": "0.0.0",
     "description": "Tasks to revisit from time to time / Simple reminders for recurring tasks",
+    "publishConfig": {
+        "access": "public"
+    },
     "main": "index.js",
     "bin": {
         "revisit": "./index.js"
