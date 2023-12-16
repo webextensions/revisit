@@ -1,6 +1,6 @@
 {
     "name": "@webextensions/revisit",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Tasks to revisit from time to time / Simple reminders for recurring tasks",
     "engines": {
         "node": ">=18"
