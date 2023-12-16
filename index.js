@@ -30,17 +30,14 @@ try {
     process.exit(1);
 }
 
-const {
-    revisitSettings = {}
-} = revisitJson;
-const arrReminders = revisitJson.revisit || [];
+const mainConfig = revisitJson.revisit || {};
+const arrReminders = mainConfig.reminders || [];
+const revisitSettings = mainConfig.settings || {};
 
 const today = new Date();
 const dateForToday = today.toISOString().substr(0, 10);
 
-const {
-    snoozedAllUpto
-} = revisitSettings;
+const { snoozedAllUpto } = revisitSettings;
 
 if (snoozedAllUpto && (snoozedAllUpto > dateForToday) && (snoozedAllUpto <= SNOOZE_LIMIT)) {
     // do nothing

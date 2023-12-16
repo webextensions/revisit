@@ -14,7 +14,7 @@
     },
     "scripts": {
         "lint": "./node_modules/.bin/eslint .",
-        "test": "npm run lint"
+        "test": "npm run lint && cd test && ../index.js"
     },
     "repository": {
         "type": "git",

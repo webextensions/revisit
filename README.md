@@ -13,37 +13,39 @@ $ revisit
 Now, to fix the issue of missing `revisit.json` file, add it at your project's root folder with contents like the following:
 ```json
 {
-    "revisitSettings": {
-        "snoozedAllUpto": "2022-01-05"
-    },
-    "revisit": [
-        {
-            "description": "Ensure that SSL certificate is working well for production site",
-            "frequencyInDays": 1,
-            "lastReminderActedUpon": "2022-01-01",
-            "snoozedUpto": "2022-01-10"
+    "revisit": {
+        "settings": {
+            "snoozedAllUpto": "2022-01-05"
         },
-        {
-            "description": "Update Node JS version",
-            "frequencyInDays": 14,
-            "lastReminderActedUpon": "2022-01-01"
-        },
-        {
-            "description": "Update npm packages",
-            "frequencyInDays": 14,
-            "lastReminderActedUpon": "2022-01-01"
-        },
-        {
-            "description": "Update installed softwares",
-            "frequencyInDays": 28,
-            "lastReminderActedUpon": "2022-01-01"
-        },
-        {
-            "description": "Review unwanted npm packages",
-            "frequencyInDays": 84,
-            "lastReminderActedUpon": "2022-01-01"
-        }
-    ]
+        "reminders": [
+            {
+                "description": "Ensure that SSL certificate is working well for production site",
+                "frequencyInDays": 1,
+                "lastReminderActedUpon": "2022-01-01",
+                "snoozedUpto": "2022-01-10"
+            },
+            {
+                "description": "Update Node JS version",
+                "frequencyInDays": 14,
+                "lastReminderActedUpon": "2022-01-01"
+            },
+            {
+                "description": "Update npm packages",
+                "frequencyInDays": 14,
+                "lastReminderActedUpon": "2022-01-01"
+            },
+            {
+                "description": "Update installed softwares",
+                "frequencyInDays": 28,
+                "lastReminderActedUpon": "2022-01-01"
+            },
+            {
+                "description": "Review unwanted npm packages",
+                "frequencyInDays": 84,
+                "lastReminderActedUpon": "2022-01-01"
+            }
+        ]
+    }
 }
 ```
 
