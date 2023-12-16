@@ -11,7 +11,7 @@ const
 //       need to be updated after a certain period of time. In future, we may switch the approach to limit
 //       snooze-duration / frequency / etc.
 const
-    SNOOZE_LIMIT = '2024-12-31',
+    SNOOZE_LIMIT = '2025-12-31',
     LAST_REMINDER_ACTED_UPON_DEFAULT_VALUE = '2020-01-01';
 
 const revisitFileName = 'revisit.json';
